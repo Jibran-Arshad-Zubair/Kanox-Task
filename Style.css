@@ -12,9 +12,10 @@
   padding-top: 5px;
   padding-left: 5px;
 }
-.container_first {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+
+#container_first {
+  margin-left: 0px ;
+  margin-right: 0px ;
   
 }
 
@@ -119,10 +120,6 @@
 }
 
 
-
-.hello {
-  margin-right: 0 !important;
-}
 
 .image____1 {
   width: -webkit-fill-available;;
@@ -305,12 +302,24 @@
     margin-right: -8px;
 }
  
+.cardss{
+  margin-bottom: 1.75rem;
+}
 
   .center{
     text-align: center;
-    padding: 80px;
+   padding-top: 90px;
+   padding-bottom: 90px;
   }
 
+#hello{
+  margin-right: 0;
+}
+#center{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+  
 .h-primary {
     font-size: 1.8rem;
     font-weight: bold;

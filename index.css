@@ -1,82 +1,82 @@
 .id2 {
-    position: relative;
-  }
+  position: relative;
+}
 
-  .corner-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 302px;
-    height: 556px;
-    background-image: url("assets/overlay_2.webp");
-    background-size: cover;
-  }
+.corner-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 302px;
+  height: 556px;
+  background-image: url("assets/overlay_2.webp");
+  background-size: cover;
+}
 
 
-  
+
 .bottom-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 227px;
-    height: 582px;
-    background-image: url("assets/overlay_1.webp");
-    background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 227px;
+  height: 582px;
+  background-image: url("assets/overlay_1.webp");
+  background-size: cover;
+}
+
+
+
+@media (max-width: 1000px) {
+  .corner-image,
+  .bottom-image {
+    display: none;
   }
-  
+}
 
 
-  @media (max-width: 1000px) {
-    .corner-image,
-    .bottom-image {
-      display: none;
-    }
+.countt{
+  color: white;
+  font-size: 60px;
+  font-weight: 200px;
+  padding-top: 5%;
+}
+
+.leftt{
+  padding-left: 5px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+#navul{
+  padding-right: 37px;
+}
+
+
+
+
+
+@media (max-width: 473px) {
+  #imgsize{
+    width: 31em;
+    height: auto;
   }
+}
 
 
-  .countt{
-    color: white;
-    font-size: 60px;
-    font-weight: 200px;
-    padding-top: 5%;
+
+@media (max-width: 375px) {
+  #imgsizee{
+    width: 33em;
+    height: auto;
   }
+}
 
-  .leftt{
-    padding-left: 5px;
-    font-size: 20px;
-    margin-bottom: 0;
+
+
+
+@media (max-width: 346px) {
+  #imgsizee{
+    width: 20em;
+    height: auto;
   }
-
-  #navul{
-    padding-right: 37px;
-  }
-
-
-
-  
-
-  @media (max-width: 473px) {
-    #imgsize{
-      width: 31em;
-      height: auto;
-    }
-  }
-
-
-  
-  @media (max-width: 375px) {
-    #imgsizee{
-      width: 33em;
-      height: auto;
-    }
-  }
-
-
-  
-  
-  @media (max-width: 346px) {
-    #imgsizee{
-      width: 20em;
-      height: auto;
-    }
-  }
+}
